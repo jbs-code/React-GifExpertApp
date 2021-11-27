@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  padding:60px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  width: 100%;
+  color: gray;
+  font-size: 1.2rem;
+}
+
+.card { 
+  border: 1px solid gray;
+  border-radius: 5px;
+  max-height: 220px;
+  max-width: 220px;
+  overflow:hidden;
+  margin-bottom:20px;
+  text-align: center;
+}
+
+.card img{
+  width: auto;
+  max-height: 60%;
+}
+.card p{
+}
+.cardGrid {
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
+  flex-wrap: wrap;
 }
